@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind cdn link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisy ui cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- header section starts here  -->
+    <header class="bg-[#FFEDD1] h-screen">
+      <div class="px-14 md:px-16 lg:px-32 pt-6">
+        <div class="navbar">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-slate-500"
+              >
+                <li><a>Donations</a></li>
+                <li>
+                  <a> About Us </a>
+                </li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <a class="cursor-pointer">
+              <img src="./images/logo.png" alt="logo-image" />
+            </a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu-horizontal px-1 text-slate-500 focus:none gap-8">
+              <li class="py-2 px-5 hover:bg-gray-200 rounded-md cursor-pointer">
+                <a>Donations</a>
+              </li>
+              <li class="py-2 px-5 hover:bg-gray-200 rounded-md cursor-pointer">
+                <a> About Us </a>
+              </li>
+              <li class="py-2 px-5 hover:bg-gray-200 rounded-md cursor-pointer">
+                <a>Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a
+              class="py-2 px-5 rounded-full bg-transparent border border-[#FFC265] font-bold text-slate-500 cursor-pointer hover:bg-[#FFC265] hover:text-white text-sm sm:text-md md:text-base lg:text-base"
+              >Donate Now</a
+            >
+          </div>
+        </div>
+        <!-- hero starts here  -->
+        <div class="mt-10 sm:mt-12 md:mt-32">
+          <div class="flex flex-col md:flex-row">
+            <div>
+              <h1
+                class="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-700"
+              >
+                Do something
+              </h1>
+              <h1
+                class="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-700 mt-2 md:mt-4"
+              >
+                Great to help other
+              </h1>
+              <p class="text-slate-500 my-5">
+                We believe that every donation counts, no matter how big or
+                small. Your contribution can make a significant impact in the
+                lives of those who need it most.
+              </p>
+              <button
+                class="py-2 px-5 bg-[#1DA599] rounded-full text-white border hover:bg-transparent hover:text-slate-500 hover:border-[#1DA599] md:font-semibold"
+              >
+                Get Started
+              </button>
+            </div>
+            <div>
+              <img
+                class="w-100 h-100"
+                src="./images/hero.png"
+                alt="banner-image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- main section starts here  -->
+    <main>
+      <!-- about section starts here -->
+      <section class="px-14 md:px-16 lg:px-32 my-20">
+        <h3 class="text-[#FFC265] text-lg md:text-2xl font-semibold mb-3">
+          About Us
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div>
+            <h3
+              class="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-700"
+            >
+              Do something great to help other
+            </h3>
+            <p class="text-slate-500 my-5">
+              Join us in our mission to create a better future for all.
+              Together, we can make a meaningful difference in the world.
+            </p>
+            <button
+              class="py-2 px-5 rounded-full bg-transparent border border-[#1DA599] font-bold text-[#1DA599] cursor-pointer hover:bg-[#1DA599] hover:text-white text-sm sm:text-md md:text-base lg:text-base"
+            >
+              Learn More
+            </button>
+          </div>
+          <div>
+            <p class="text-slate-500">
+              At Giving Hope, we are passionate about making a positive impact
+              in the world. We believe that everyone has the power to create
+              change, and that small actions can make a big difference. Our
+              mission is to provide a platform that connects individuals with
+              causes they care about, and to make the process of donating simple
+              and easy. We work with a diverse range of organizations to address
+              issues such as poverty, hunger, education, sustainability, and
+              more. We are committed to transparency and accountability, and
+              ensure that all donations go directly to the causes they are
+              intended for.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- what we do section starts here  -->
+      <section class="px-14 md:px-16 lg:px-32 my-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+          <div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div class="shadow-xl p-8 rounded-md hover:shadow-2xl">
+                <p
+                  class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
+                ></p>
+                <h4 class="text-gray-700 font-semibold text-xl mt-5">
+                  Job Matching
+                </h4>
+                <p class="text-slate-500 mt-3">
+                  create a professional profile, access resources to improve
+                  your CV and interview skills.
+                </p>
+              </div>
+              <div class="shadow-xl p-8 rounded-md hover:shadow-2xl">
+                <p
+                  class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
+                ></p>
+                <h4 class="text-gray-700 font-semibold text-xl mt-5">
+                  Job Matching
+                </h4>
+                <p class="text-slate-500 mt-3">
+                  create a professional profile, access resources to improve
+                  your CV and interview skills.
+                </p>
+              </div>
+              <div class="shadow-xl p-8 rounded-md hover:shadow-2xl">
+                <p
+                  class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
+                ></p>
+                <h4 class="text-gray-700 font-semibold text-xl mt-5">
+                  Job Matching
+                </h4>
+                <p class="text-slate-500 mt-3">
+                  create a professional profile, access resources to improve
+                  your CV and interview skills.
+                </p>
+              </div>
+              <div class="shadow-xl p-8 rounded-md hover:shadow-2xl">
+                <p
+                  class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
+                ></p>
+                <h4 class="text-gray-700 font-semibold text-xl mt-5">
+                  Job Matching
+                </h4>
+                <p class="text-slate-500 mt-3">
+                  create a professional profile, access resources to improve
+                  your CV and interview skills.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col items-center justify-center">
+            <div>
+              <h3 class="text-[#FFC265] text-lg md:text-2xl font-semibold mb-3">
+                What we do
+              </h3>
+              <h3
+                class="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-700"
+              >
+                Do something great to help other
+              </h3>
+              <div class="text-slate-500 my-5">
+                <p class="mb-3">
+                  At Giving Hope, we are passionate about making a positive
+                  impact in the world. We believe that everyone has the power to
+                  create change, and that small actions can make a big
+                  difference.
+                </p>
+                <p>
+                  Our mission is to provide a platform that connects individuals
+                  with causes they care about, and to make the process of
+                  donating simple and easy.
+                </p>
+              </div>
+              <button
+                class="py-2 px-5 rounded-full bg-transparent border border-[#1DA599] font-bold text-[#1DA599] cursor-pointer hover:bg-[#1DA599] hover:text-white text-sm sm:text-md md:text-base lg:text-base"
+              >
+                Donate Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- community work section starts here -->
+      <section class="px-14 md:px-16 lg:px-32 my-20">
+        <div class="text-center mb-12">
+          <h3
+            class="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-700 mb-5"
+          >
+            Community Work
+          </h3>
+          <p class="text-slate-500">
+            Join us in our mission to create a better future for all. Together,
+            we can make <br />
+            a meaningful difference in the world.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-1 grid-rows-1 md:grid-rows-3 md:grid-cols-3 gap-3"
+        >
+          <div class="bg-gray-200 py-20 rounded-lg">1</div>
+          <div class="bg-gray-200 py-20 rounded-lg md:row-span-2 md:col-span-2">
+            2
+          </div>
+          <div class="bg-gray-200 py-20 rounded-lg row-span-2">3</div>
+          <div class="relative bg-gray-200 py-20 rounded-lg row-span-2">
+            <div
+              class="text-white text-center py-2 md:py-4 md:font-bold bg-[#FFC265] rounded-bl-lg rounded-br-lg absolute bottom-0 right-0 left-0"
+            >
+              REVIEW
+            </div>
+          </div>
+          <div class="bg-gray-200 py-20 rounded-lg">5</div>
+          <div class="bg-gray-200 py-20 rounded-lg">6</div>
+          <div class="bg-gray-200 py-20 rounded-lg">7</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer section starts here  -->
+    <footer class="bg-[#00110F] pt-16">
+      <section class="px-14 md:px-16 lg:px-32 mt-20 mb-5">
+        <div class="flex flex-col md:flex-row gap-20">
+          <div>
+            <img
+              class="w-40 md:w-56"
+              src="./images/logo.png"
+              alt="logo-footer-image"
+            />
+            <p class="text-slate-400 my-5">
+              On the other hand, we denounce with righteous <br />
+              indignation and dislike men who are so beguiled and <br />
+              demoralized by the charms,
+            </p>
+            <div>
+              <h5 class="text-white font-semibold">Contact Information</h5>
+              <div class="space-y-3 md:space-y-5 mt-5">
+                <div class="flex gap-5">
+                  <p>
+                    <i class="fa-solid fa-location-dot text-white fa-lg"></i>
+                  </p>
+                  <p class="text-slate-400">Berlin, Germany</p>
+                </div>
+                <div class="flex gap-5">
+                  <p>
+                    <i class="fa-solid fa-phone text-white"></i>
+                  </p>
+                  <p class="text-slate-400">+34567345678</p>
+                </div>
+                <div class="flex gap-5">
+                  <p>
+                    <i class="fa-solid fa-envelope text-white"></i>
+                  </p>
+                  <p class="text-slate-400">info@bdmg-ev.de</p>
+                </div>
+                <div class="flex gap-5">
+                  <p>
+                    <i class="fa-solid fa-brands fa-facebook-f text-white"></i>
+                  </p>
+                  <p class="text-slate-400">facebook.com/bdmg.berlin</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5 class="text-white font-semibold">Contact Donation</h5>
+            <div class="space-y-3 md:space-y-5 mt-5">
+              <div class="flex gap-5">
+                <p><i class="fa-solid fa-building-columns text-white"></i></p>
+                <p class="text-slate-400">
+                  B.D.M.G e.V <br />
+                  Bangla Deutsch Muslim Gemeinschaft <br />
+                  IBAN: DE09502345000386090001
+                </p>
+              </div>
+              <div class="flex gap-5">
+                <p><i class="fa-brands fa-paypal text-white fa-lg"></i></p>
+                <p class="text-slate-400">paypal.me/bdmgberlin | @bdmgberlin</p>
+              </div>
+              <div>
+                <img
+                  class="w-24 md:w-32"
+                  src="./images/barcode.png"
+                  alt="footer-barcode"
+                />
+                <p class="text-slate-400 mt-4">donate@bdmg-ev.de</p>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h5 class="text-white font-semibold">Contact Donation</h5>
+            <div class="space-y-3 md:space-y-5 mt-5">
+              <p class="text-slate-400">Contact us</p>
+              <p class="text-slate-400">About us</p>
+              <p class="text-slate-400">Donation</p>
+              <p class="text-slate-400">Imprint</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <hr class="border-1 mt-16" />
+      <section class="px-14 md:px-16 lg:px-32 py-5">
+        <div class="flex flex-col md:flex-row justify-between gap-5">
+          <div class="flex flex-col md:flex-row gap-3">
+            <p class="text-slate-400">
+              ©2023 All Right reserved Copyright | </p>
+              <p class="text-white">www.bdmg-ev.de</p>
+            </p>
+          </div>
+          <div class="flex flex-col md:flex-row gap-2 md:gap-5">
+            <p class="text-slate-400">Terms and conditions</p>
+            <p class="text-slate-400">Privacy Policy</p>
+            <p class="text-slate-400">Pricing</p>
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <!-- script  -->
+  </body>
+</html>
