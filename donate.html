@@ -47,13 +47,13 @@
               </label>
               <ul
                 tabindex="0"
-                class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-slate-500"
+                class="menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 text-slate-500"
               >
-                <li><a>Donations</a></li>
-                <li>
+                <li class="hover:bg-gray-200 py-2 px-5 rounded-lg cursor-pointer"><a>Donations</a></li>
+                <li class="hover:bg-gray-200 py-2 px-5 rounded-lg cursor-pointer">
                   <a> About Us </a>
-                </li>
-                <li><a>Contact Us</a></li>
+                </li class="hover:bg-gray-200 py-2 px-5 rounded-lg cursor-pointer">
+                <li class="hover:bg-gray-200 py-2 px-5 rounded-lg cursor-pointer"><a>Contact Us</a></li>
               </ul>
             </div>
             <a class="cursor-pointer">
@@ -61,26 +61,25 @@
             </a>
           </div>
           <div class="navbar-center hidden lg:flex">
-            <ul class="menu-horizontal px-1 text-slate-500 focus:none gap-8">
-              <li class="py-2 px-5 hover:bg-gray-200 rounded-md cursor-pointer">
+            <ul class="menu-horizontal text-sm md:text-lg text-slate-500 focus:none gap-8">
+              <li class="py-3 px-3 hover:bg-gray-200 rounded-md cursor-pointer hover:transition hover:duration-300 hover:ease-in-out">
                 <a>Donations</a>
               </li>
-              <li class="py-2 px-5 hover:bg-gray-200 rounded-md cursor-pointer">
+              <li class="py-3 px-3 hover:bg-gray-200 rounded-md cursor-pointer hover:transition hover:duration-300 hover:ease-in-out">
                 <a> About Us </a>
               </li>
-              <li class="py-2 px-5 hover:bg-gray-200 rounded-md cursor-pointer">
+              <li class="py-3 px-3 hover:bg-gray-200 rounded-md cursor-pointer hover:transition hover:duration-300 hover:ease-in-out">
                 <a>Contact Us</a>
               </li>
             </ul>
           </div>
           <div class="navbar-end">
             <a
-              class="py-2 px-5 rounded-full bg-transparent border border-[#FFC265] font-bold text-slate-500 cursor-pointer hover:bg-[#FFC265] hover:text-white text-sm sm:text-md md:text-base lg:text-base"
+              class="py-2 md:py-3 px-5 rounded-full bg-transparent border border-[#FFC265] hover:transition hover:duration-300 hover:ease-in-out font-bold text-slate-500 cursor-pointer hover:bg-[#FFC265] hover:text-white text-sm md:text-lg"
               >Donate Now</a
             >
           </div>
         </div>
-
       </div>
     </header>
 
@@ -90,29 +89,29 @@
         <section class="px-14 md:px-16 lg:px-32 my-20">
             <div class="text-center mb-12">
                 <h3
-                  class="text-xl sm:text-2xl md:text-3xl font-semibold text-gray-700 mb-5"
+                  class="text-xl sm:text-2xl md:text-5xl font-normal text-gray-700 mb-5"
                 >
                 Start Donate Now
                 </h3>
-                <p class="text-slate-500">
+                <p class="text-slate-500 text-sm md:text-lg">
                     We believe that every donation counts, no matter how big or small. Your contribution can make a significant <br> impact in the lives of those who need it most.
                 </p>
               </div>
               <div class="px-14 py-10 rounded-md text-center mx-auto md:w-1/2 bg-white drop-shadow-md border ">
                 <div class="ml-7 md:ml-24">
                     <div class="flex relative">
-                        <button class="bg-[#1DA599] py-3 rounded-full px-4 md:px-8 text-white md:font-semibold">Give Once</button>
-                        <button class="text-[#1DA599] md:font-semibold bg-[#D2EDEB] pl-8 md:pl-16 pr-5 md:pr-8 rounded-r-full -z-10 py-3 absolute left-20 md:left-28 cursor-pointer">Monthly</button>
+                        <button class="bg-[#1DA599] hover:bg-teal-400 hover:transition hover:duration-300 hover:ease-in-out py-2 md:py-3 rounded-full px-4 md:px-8 text-white md:font-semibold">Give Once</button>
+                        <button class="text-[#1DA599] md:font-semibold bg-[#D2EDEB] pl-8 md:pl-16 pr-5 md:pr-8 rounded-r-full -z-10 py-2 md:py-3 absolute left-20 md:left-28 cursor-pointer">Monthly</button>
                     </div>
                 </div>
                 <div class="my-5 space-y-3 md:space-x-3">
-                    <button class="py-2.5 bg-gray-200 px-5 rounded-full text-slate-600 font-semibold">EUR &euro;200</button>
-                    <button class="py-2.5 bg-gray-900 px-5 rounded-full text-white font-semibold">EUR &euro;100</button>
-                    <button class="py-2.5 bg-gray-200 px-5 rounded-full text-slate-600 font-semibold">EUR &euro;150</button>
-                    <button class="py-2.5 bg-gray-200 px-5 rounded-full text-slate-600 font-semibold">EUR &euro;50</button>
+                    <button class="py-2.5 bg-gray-200 hover:bg-gray-300 hover:transition hover:duration-300 hover:ease-in-out px-5 rounded-full text-slate-600 font-semibold">EUR &euro;200</button>
+                    <button class="py-2.5 bg-gray-900 hover:bg-gray-700 hover:transition hover:duration-300 hover:ease-in-out px-5 rounded-full text-white font-semibold">EUR &euro;100</button>
+                    <button class="py-2.5 bg-gray-200 hover:bg-gray-300 hover:transition hover:duration-300 hover:ease-in-out px-5 rounded-full text-slate-600 font-semibold">EUR &euro;150</button>
+                    <button class="py-2.5 bg-gray-200 hover:bg-gray-300 hover:transition hover:duration-300 hover:ease-in-out px-5 rounded-full text-slate-600 font-semibold">EUR &euro;50</button>
                   </div>
                   <div class="my-5">
-                    <button class="py-2 bg-gray-200 px-7 rounded-full text-slate-500 font-semibold"><span class="text-[#1DA599]">EUR &euro;</span> Custom Payment</button>
+                    <button class="py-2 bg-gray-200 hover:bg-gray-300 hover:transition hover:duration-300 hover:ease-in-out px-7 rounded-full text-slate-500 font-semibold"><span class="text-[#1DA599]">EUR &euro;</span> Custom Payment</button>
                   </div>
                   <hr class="border-1 border-[#BBE4E0] mb-5">
                   <div>
@@ -124,26 +123,26 @@
                     </div>
                     <div class="my-2 relative">
                       <label class="text-slate-500" for="name">Card No *</label> <br>
-                      <input class="py-2 w-full border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="text" placeholder="**** **** **** ****">
+                      <input class="py-2 w-full border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="number" placeholder="**** **** **** ****">
                       <img class="absolute top-9 right-3 h-6 w-8" src="./images/visa.png" alt="">
                     </div>
                     <div class="flex flex-col md:flex-row gap-2">
                     <div class="">
                       <label class="text-slate-500" for="name">CVV </label> <br>
-                      <input class="py-2 w-full sm:w-48 md:w-48 border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="text" placeholder="***">
+                      <input class="py-2 w-full sm:w-48 md:w-48 border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="number" placeholder="***">
                     </div>
-                    <div class="mt-2">
+                    <div class="">
                       <label class="text-slate-500" for="name">Expiration Date</label> <br>
-                      <input class="py-2 w-full border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="text" placeholder="YYYY">
+                      <input class="py-2 w-full border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="number" placeholder="YYYY">
                     </div>
                     <div class="flex items-center justify-center md:mt-6">
                       <label class="text-slate-500" for="name"></label> <br>
-                      <input class="py-2 w-full border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="text" placeholder="MM">
+                      <input class="py-2 w-full border border-[#BBE4E0] rounded-md pl-3 focus:outline-none mt-1" type="number" placeholder="MM">
                     </div>
                   </div>
                  <div class="flex justify-center mt-5">
                   <button
-                  class="py-2 px-8 bg-[#1DA599] rounded-full text-white border hover:bg-transparent hover:text-slate-500 hover:border-[#1DA599] md:font-semibold"
+                  class="py-2 md:py-3 px-8 bg-[#1DA599] hover:transition hover:duration-300 hover:ease-in-out rounded-full text-white border hover:bg-transparent hover:text-slate-500 hover:border-[#1DA599] md:font-semibold"
                 >
                   Submit
                 </button>
@@ -170,7 +169,7 @@
               Together, we can make a meaningful difference in the world.
             </p>
             <button
-              class="py-2 px-5 rounded-full bg-transparent border border-[#1DA599] font-bold text-[#1DA599] cursor-pointer hover:bg-[#1DA599] hover:text-white text-sm sm:text-md md:text-base lg:text-base"
+              class="py-2 md:py-3 px-5 rounded-full bg-transparent border border-[#1DA599] font-bold text-[#1DA599] cursor-pointer hover:bg-[#1DA599] hover:transition hover:duration-300 hover:ease-in-out hover:text-white text-sm sm:text-md md:text-base lg:text-base"
             >
               Become a member
             </button>
@@ -189,51 +188,51 @@
         <div class="flex flex-col md:flex-row gap-20">
           <div>
             <img
-              class="w-40 md:w-56"
+              class="w-40 md:w-56 cursor-pointer"
               src="./images/logo.png"
               alt="logo-footer-image"
             />
-            <p class="text-slate-400 my-5">
+            <p class="text-slate-300 text-sm md:text-base my-5">
               On the other hand, we denounce with righteous <br />
               indignation and dislike men who are so beguiled and <br />
-              demoralized by the charms,
+              demoralized by the charms
             </p>
             <div>
-              <h5 class="text-white font-semibold">Contact Information</h5>
+              <h5 class="text-white font-bold text-base">Contact Information</h5>
               <div class="space-y-3 md:space-y-5 mt-5">
                 <div class="flex gap-5">
                   <p>
                     <i class="fa-solid fa-location-dot text-white fa-lg"></i>
                   </p>
-                  <p class="text-slate-400">Berlin, Germany</p>
+                  <p class="text-slate-300 text-base cursor-pointer">Berlin, Germany</p>
                 </div>
                 <div class="flex gap-5">
                   <p>
                     <i class="fa-solid fa-phone text-white"></i>
                   </p>
-                  <p class="text-slate-400">+34567345678</p>
+                  <p class="text-slate-300 text-base cursor-pointer hover:underline">+34567345678</p>
                 </div>
                 <div class="flex gap-5">
                   <p>
                     <i class="fa-solid fa-envelope text-white"></i>
                   </p>
-                  <p class="text-slate-400">info@bdmg-ev.de</p>
+                  <p class="text-slate-300 text-base cursor-pointer">info@bdmg-ev.de</p>
                 </div>
                 <div class="flex gap-5">
                   <p>
                     <i class="fa-solid fa-brands fa-facebook-f text-white"></i>
                   </p>
-                  <p class="text-slate-400">facebook.com/bdmg.berlin</p>
+                  <p class="text-slate-300 text-base cursor-pointer">facebook.com/bdmg.berlin</p>
                 </div>
               </div>
             </div>
           </div>
           <div>
-            <h5 class="text-white font-semibold">Contact Donation</h5>
+            <h5 class="text-white font-bold text-base">Contact Donation</h5>
             <div class="space-y-3 md:space-y-5 mt-5">
               <div class="flex gap-5">
                 <p><i class="fa-solid fa-building-columns text-white"></i></p>
-                <p class="text-slate-400">
+                <p class="text-slate-300 text-base cursor-pointer">
                   B.D.M.G e.V <br />
                   Bangla Deutsch Muslim Gemeinschaft <br />
                   IBAN: DE09502345000386090001
@@ -241,7 +240,7 @@
               </div>
               <div class="flex gap-5">
                 <p><i class="fa-brands fa-paypal text-white fa-lg"></i></p>
-                <p class="text-slate-400">paypal.me/bdmgberlin | @bdmgberlin</p>
+                <p class="text-slate-300 text-base cursor-pointer">paypal.me/bdmgberlin | @bdmgberlin</p>
               </div>
               <div>
                 <img
@@ -249,17 +248,17 @@
                   src="./images/barcode.png"
                   alt="footer-barcode"
                 />
-                <p class="text-slate-400 mt-4">donate@bdmg-ev.de</p>
+                <p class="text-slate-300 text-base mt-4 cursor-pointer">donate@bdmg-ev.de</p>
               </div>
             </div>
           </div>
           <div>
-            <h5 class="text-white font-semibold">Contact Donation</h5>
-            <div class="space-y-3 md:space-y-5 mt-5">
-              <p class="text-slate-400">Contact us</p>
-              <p class="text-slate-400">About us</p>
-              <p class="text-slate-400">Donation</p>
-              <p class="text-slate-400">Imprint</p>
+            <h5 class="text-white font-bold text-base">Contact Donation</h5>
+            <div class="space-y-3 md:space-y-5 mt-5 text-base">
+              <p class="text-slate-300 cursor-pointer">Contact us</p>
+              <p class="text-slate-300 cursor-pointer">About us</p>
+              <p class="text-slate-300 cursor-pointer">Donation</p>
+              <p class="text-slate-300 cursor-pointer">Imprint</p>
             </div>
           </div>
         </div>
@@ -268,15 +267,15 @@
       <section class="px-14 md:px-16 lg:px-32 py-5">
         <div class="flex flex-col md:flex-row justify-between gap-5">
           <div class="flex flex-col md:flex-row gap-3">
-            <p class="text-slate-400">
+            <p class="text-slate-300 font-bold text-sm">
               ©2023 All Right reserved Copyright | </p>
-              <p class="text-white">www.bdmg-ev.de</p>
+              <p class="text-white text-sm font-bold cursor-pointer">www.bdmg-ev.de</p>
             </p>
           </div>
-          <div class="flex flex-col md:flex-row gap-2 md:gap-5">
-            <p class="text-slate-400">Terms and conditions</p>
-            <p class="text-slate-400">Privacy Policy</p>
-            <p class="text-slate-400">Pricing</p>
+          <div class="flex flex-col md:flex-row gap-2 md:gap-5 text-sm">
+            <p class="text-slate-300 cursor-pointer">Terms and conditions</p>
+            <p class="text-slate-300 cursor-pointer">Privacy Policy</p>
+            <p class="text-slate-300 cursor-pointer">Pricing</p>
           </div>
         </div>
       </section>

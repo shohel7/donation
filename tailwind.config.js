@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+    fontFamily: {
+      Inter: ['"Inter"', "sans-serif"],
+    },
     extend: {
       colors: {
         primaryColor: "#FFC265",
