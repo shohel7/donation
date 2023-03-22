@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind cdn link  -->
     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- aos cdn link -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- daisy ui cdn link  -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css"
@@ -174,7 +176,8 @@
               Become a member
             </button>
           </div>
-          <div class="bg-gray-200 py-28 rounded-md">
+          <div data-aos="fade-up"
+          data-aos-duration="2000" class="bg-gray-200 py-28 rounded-md">
           </div>
         </div>
       </section>
@@ -283,6 +286,10 @@
     </footer>
 
 
-    <!-- script  -->
+     <!-- script  -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
   </body>
 </html>

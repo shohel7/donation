@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- tailwind cdn link  -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- inter cdn link -->
+    <!-- aos cdn link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+     <!-- inter cdn link -->
    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <!-- daisy ui cdn link  -->
     <link
@@ -159,7 +161,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
           <div>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-              <div class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
+              <div data-aos="zoom-out-right" data-aos-duration="2000" class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
                 <p
                   class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
                 ></p>
@@ -171,7 +173,7 @@
                   your CV and interview skills.
                 </p>
               </div>
-              <div class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
+              <div data-aos="zoom-out-left" data-aos-duration="2000" class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
                 <p
                   class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
                 ></p>
@@ -183,7 +185,7 @@
                   your CV and interview skills.
                 </p>
               </div>
-              <div class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
+              <div data-aos="zoom-in-up" data-aos-duration="2000" class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
                 <p
                   class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
                 ></p>
@@ -195,7 +197,7 @@
                   your CV and interview skills.
                 </p>
               </div>
-              <div class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
+              <div data-aos="zoom-in-up" data-aos-duration="2000" class="shadow-xl p-8 rounded-md border border-slate-50 cursor-pointer bg-white hover:drop-shadow-xl hover:transition hover:duration-200 hover:ease-in-out">
                 <p
                   class="h-8 w-8 md:h-12 md:w-12 bg-[#1DA599] rounded-full"
                 ></p>
@@ -258,20 +260,21 @@
         <div
           class="grid grid-cols-1 grid-rows-1 md:grid-rows-3 md:grid-cols-3 gap-3"
         >
-          <div class="bg-gray-200 py-20 rounded-lg"></div>
-          <div class="bg-gray-200 py-20 rounded-lg md:row-span-2 md:col-span-2">
+          <div data-aos="flip-left" data-aos-duration="2000" class="bg-gray-200 py-20 rounded-lg"></div>
+          <div data-aos="flip-up" data-aos-duration="2000" class="bg-gray-200 py-20 rounded-lg md:row-span-2 md:col-span-2">
           </div>
-          <div class="bg-gray-200 py-20 rounded-lg row-span-2"></div>
-          <div class="relative bg-gray-200 py-20 rounded-lg row-span-2">
-            <div
+          <div data-aos="flip-up" data-aos-duration="2000" class="bg-gray-200 py-20 rounded-lg row-span-2"></div>
+          <div data-aos="zoom-in" data-aos-duration="2000" class="relative bg-gray-200 py-20 rounded-lg row-span-2">
+            <div 
+            data-aos="flip-down" data-aos-duration="2000"
               class="text-white text-center py-2 md:py-4 md:font-bold bg-[#FFC265] hover:bg-amber-500 rounded-bl-lg rounded-br-lg absolute bottom-0 right-0 left-0 cursor-pointer hover:transition hover:duration-300 hover:ease-in-out"
             >
               REVIEW
             </div>
           </div>
-          <div class="bg-gray-200 py-20 rounded-lg"></div>
-          <div class="bg-gray-200 py-20 rounded-lg"></div>
-          <div class="bg-gray-200 py-20 rounded-lg"></div>
+          <div data-aos="flip-right" data-aos-duration="2000" class="bg-gray-200 py-20 rounded-lg"></div>
+          <div data-aos="flip-right" data-aos-duration="2000" class="bg-gray-200 py-20 rounded-lg"></div>
+          <div data-aos="flip-right" data-aos-duration="2000" class="bg-gray-200 py-20 rounded-lg"></div>
         </div>
       </section>
     </main>
@@ -379,5 +382,9 @@
 
 
     <!-- script  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
